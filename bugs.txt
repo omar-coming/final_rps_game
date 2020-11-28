@@ -1,0 +1,17 @@
+moved game function to it's own file: game.py
+
+AI seems to be kind of working but computer never seems to lose against scissors. Just tie or lose.
+
+-variables were set so you could never lose if you picked paper *fixed placement of rock paper scissors in game.py
+
+if you choose anything but one of the choices, the game automatically grants user a win.
+Not sure to how to fix this.
+
+def validOption():
+    if gameVars.player not in (gameVars.choices):
+        gameVars.player = input("Please Choose a Valid Option")
+        return gamePlay()
+
+was my attempt.
+
+added a better feature to win every game without fail
