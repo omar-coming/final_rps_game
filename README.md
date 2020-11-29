@@ -1,6 +1,8 @@
-# python-rps - Spencer D
+# Python RPS Game
 
-RPS_Game_IMD
+## author
+
+Spencer D
 
 ## Summary
 
